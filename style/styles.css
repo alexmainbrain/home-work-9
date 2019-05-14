@@ -1,0 +1,60 @@
+form {
+	margin: 20px auto;
+}
+
+.users {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.user {
+	flex-basis: 200px;
+	background: white;
+	margin: 5px;
+	padding: 5px;
+	position: relative;
+}
+
+.user__remove {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	border: none;
+	background: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+user__remove:hover {
+	background: white;
+}
+.load-users {
+	margin-left: 44.5%;
+font-size: 20px;
+border-radius: 5px;
+}
+#create-user {
+margin-left: 43.5%;
+
+font-size: 20px;
+border-radius: 5px;
+
+}
+#name, #age {
+margin-left: 38%;
+font-size: 30px;
+border-radius: 10px;
+}
+.name, .age {
+margin-left: 46%;
+font-size: 30px;
+}
+
+.user_remove:hover,.save-button:hover {
+	filter: invert(100);
+}
+.save-button {
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+}
